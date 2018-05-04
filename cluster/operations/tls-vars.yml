@@ -14,3 +14,4 @@
     type: certificate
     options:
       ca: atc_ca
+      common_name: atcCA
