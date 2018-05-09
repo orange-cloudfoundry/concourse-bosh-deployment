@@ -5,6 +5,7 @@ bosh -e ${BOSH_ENVIRONMENT} deploy -d concourse concourse.yml \
    -o operations/tls.yml \
    -o operations/tls-vars.yml \
    -o operations/listen-on-vip.yml \
+   -o operations/privileged-https.yml \
    -l ../versions.yml \
    -v network_name=concourse-bucc \
    -v external_url=https://84.39.34.251 \
